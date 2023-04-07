@@ -2,9 +2,7 @@ from flask import Flask, render_template, request, jsonify
 import joblib
 import os
 from dotenv import load_dotenv
-# load_dotenv()
-
-print(os.environ)
+load_dotenv()
 
 # # Load the trained machine learning model
 # model = joblib.load('trained_model.pkl')
