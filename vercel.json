@@ -6,6 +6,9 @@
           "use": "@vercel/python"
       }
   ],
+  "dependencies": {
+    "flask": "2.2.2"
+  },
   "routes": [
       {
           "src": "/(.*)",
