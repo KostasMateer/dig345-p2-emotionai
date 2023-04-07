@@ -1,18 +1,12 @@
 {
   "version": 2,
-  "builds": [
-      {
-          "src": "./index.py",
-          "use": "@vercel/python"
-      }
-  ],
-  "dependencies": {
-    "flask": "2.2.2"
-  },
-  "routes": [
-      {
-          "src": "/(.*)",
-          "dest": "/"
-      }
-  ]
+  "name": "dig345-p2-emotionai",
+  "builds": [{
+      "src": "./index.py",
+      "use": "@vercel/python"
+  }],
+  "routes": [{
+      "src": "/(.*)",
+      "dest": "/index.py"
+  }]
 }
