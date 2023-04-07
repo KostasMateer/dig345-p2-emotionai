@@ -2,7 +2,7 @@
   "version": 2,
   "name": "dig345-p2-emotionai",
   "builds": [{
-      "src": "./index.py",
+      "src": "index.py",
       "use": "@vercel/python"
   }],
   "routes": [{
