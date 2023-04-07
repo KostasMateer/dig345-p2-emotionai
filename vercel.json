@@ -1,30 +1,5 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "./index.py",
-        "use": "@vercel/python"
-      },
-      {
-        "use": "@vercel/static",
-        "src": "build",
-        "config": {}
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/"
-      }
-    ],
-    "env": {
-      "PYTHONPATH": ".",
-      "FLASK_ENV": "production"
-    },
-    "build": {
-        "env": {
-          "FLASK_ENV": "production"
-        }
-    }
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/index" }
+    ]
   }
-  
