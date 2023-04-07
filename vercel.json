@@ -18,6 +18,7 @@
       }
     ],
     "env": {
+      "PYTHONPATH": ".",
       "FLASK_ENV": "production"
     },
     "build": {
