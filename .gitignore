@@ -26,3 +26,4 @@ yarn-error.log*
 
 .venv
 .vercel
+.secret.json
