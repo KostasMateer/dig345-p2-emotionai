@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS, cross_origin
 from google.cloud import language_v1
 from google.oauth2.service_account import Credentials
-import os
 from dotenv import load_dotenv
 load_dotenv()
 
